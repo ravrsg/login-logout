@@ -8,8 +8,18 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@okta/okta-auth-js": "^4.8.0",
+    "@okta/okta-vue": "^3.1.0",
+    "bootstrap": "^4.6.0",
+    "bootstrap-vue": "^2.21.2",
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "crypto-js": "^4.0.0",
+    "es6-promise": "^4.2.8",
+    "express": "^4.17.1",
+    "oauth2-server": "^3.1.1",
+    "vue": "^2.6.11",
+    "vue-router": "^3.5.1",
+    "vuex": "^3.6.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
@@ -18,6 +28,7 @@
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
+    "nodemon": "^2.0.7",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {
